@@ -34,7 +34,7 @@ A powerful and simple task management web application built using HTML, CSS, and
 
 [![Watch Video](https://img.youtube.com/vi/CGNJDYel8Lo/0.jpg)](https://youtu.be/CGNJDYel8Lo)
 
----
+```
 
 ## 📂 Folder Structure
 
@@ -49,7 +49,7 @@ Task-Manager-Pro/
     └── demo.mp4
 
 
----
+```
 
 ## 🧠 How It Works
 
