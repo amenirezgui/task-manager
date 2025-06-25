@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Pro</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Oswald:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="index.js" defer></script>
+</head>
+<body class="body">
+    <div class="header">
+        <h1>Task Manager Pro</h1>
+        <hr style="border: 3px solid black ;width: 98%;margin-bottom: 20px;">
+        <div class="inputdiv">
+            <input type="text" id="inputfield" placeholder="Enter Task">
+            <button id="addtask">Add</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="filter">
+            <button class="button" id="alltasks">All</button>
+            <button class="button" id="completed">Completed</button>
+            <button class="button" id="pending">Pending</button>
+            <button class="button" id="high">High Priority</button>
+        </div>
+        <hr style="border: 3px solid black ;width: 98%;margin-bottom: 30px;">
+
+        <div class="taskcontainer">
+            <ul class="tasks" id="tasks"></ul>
+        </div>
+    </div>
+</body>
+</html>
